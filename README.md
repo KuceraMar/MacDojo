@@ -1,5 +1,7 @@
 # MacDojo
 
+Základní příkazy pro práci s macOS
+
 ## 🧭 Základy (navigace)
 
 pwd                       # aktuální cesta
