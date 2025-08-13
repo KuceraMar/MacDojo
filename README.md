@@ -133,6 +133,11 @@ find . -type f -print0 | xargs -0 -n1 echo
 find . -name '*.log' -print0 | xargs -0 -I{} echo rm -f "{}"
 
 
-
+## Gzip a archívy
+# v adresáři s dumpem
+gzip -9 dump.sql
+# vznikne dump.sql.gz
+# kontrola
+file dump.sql.gz
 
 
